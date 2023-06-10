@@ -25,3 +25,15 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+@layer base {
+  .font-outline-px {
+    -webkit-text-stroke: 1px red;
+  }
+  .font-outline-2 {
+    -webkit-text-stroke: 2px red;
+  }
+  .font-outline-4 {
+    -webkit-text-stroke: 4px red;
+  }
+}
